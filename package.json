@@ -1,0 +1,22 @@
+{
+  "name": "shopify-dynamodb-session-storage",
+  "version": "1.0.0",
+  "description": "dynamodb session storage for shopify app",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "author": "Daichi Yamauchi <57288041+daichi-yamauchi@users.noreply.github.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.0.0"
+  },
+  "dependencies": {
+    "@shopify/shopify-api": "^3.1.3",
+    "aws-sdk": "^2.1160.0"
+  }
+}
