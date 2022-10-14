@@ -13,7 +13,8 @@
   "author": "Daichi Yamauchi <57288041+daichi-yamauchi@users.noreply.github.com>",
   "license": "MIT",
   "devDependencies": {
-    "@types/node": "^18.0.0"
+    "@types/node": "^18.0.0",
+    "typescript": "^4.8.4"
   },
   "dependencies": {
     "@shopify/shopify-api": "^3.1.3",
